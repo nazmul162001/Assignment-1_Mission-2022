@@ -109,12 +109,39 @@ section{
 .content--right{
   padding-left: 80px;
 }
+.bg-shape-1{
+  position: relative;
+}
+.bg-shape-1::before{
+  content: "";
+  background-image: url("../image/bg-image/shape-1.png");
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  top: 50px;
+  left:-55px;
+  width: 150px;
+  height: 150px;
+}
 
 /* community */
-
 #community  .content--right{
   padding-right: 80px;
   padding-left: 0;
+}
+.bg-shape-2{
+  position: relative;
+}
+.bg-shape-2::after{
+  content: "";
+  background-image: url("../image/bg-image/shape-1.png");
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  bottom: -50px;
+  right: -60px;
+  width: 150px;
+  height: 150px;
 }
 
 /* footer  */
