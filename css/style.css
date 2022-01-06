@@ -144,6 +144,32 @@ section{
   height: 150px;
 }
 
+/* portfolio section  */
+.portfolio h1{
+  font-size: 40px;
+  text-align: center;
+}
+.portfolio .row{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.portfolio img{
+  width: 335px;
+  height: 395px;
+}
+.portfolio a.button{
+  display: inline-block;
+  margin-right: 15px;
+}
+.portfolio h2{
+  font-size: 30px;
+  font-family: 'Yeseva One', cursive;
+  font-weight: 500;
+  color: #2b2828;
+  line-height: 50px;
+}
+
 /* footer  */
 
 footer{
