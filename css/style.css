@@ -17,6 +17,90 @@ font-family: 'Yeseva One', cursive;
 }
 body{
   width: 100%;
+  height: 100vh;
   font-family: 'Poppins', sans-serif;
-
+  padding: 90px;
 }
+p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #3E3E3E;
+  line-height: 28px;
+  margin: 15px 0;
+}
+a.button{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 8px 25px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #FF5959;
+}
+/* about-me section  */
+.about-me{
+  display: flex;
+  justify-content: space-between;
+}
+.half-width{
+  width: 40%;
+}
+.content-left{
+  margin-top: 100px;
+}
+.about-me img{
+  width: 100%;
+  border-radius: 50%;
+}
+.about-me h1{
+  font-size: 55px;
+  font-weight: 400;
+  font-family: 'Yeseva One', cursive;
+}
+.focused-title{
+  color: #FFAD5A;
+}
+.focused{
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, rgb(30, 30, 32), rgb(231, 144, 13));
+  border-image-slice: 1;
+  padding: 0 5px;
+}
+
+/* My mission section  */
+
+#mission{
+  margin: 100px 0;
+}
+#mission h1{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.my-mission{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+#mission img{
+  width: 100px;
+}
+.common{
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.missions{
+  background-color: #4F9DA61A;
+}
+.vissions{
+  background-color: #FF59591A;
+}
+.goals{
+  background-color: #FFF4D6;
+}
+
+/* discussion  */
