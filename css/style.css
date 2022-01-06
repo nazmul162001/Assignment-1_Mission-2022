@@ -10,10 +10,9 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+/* short-code  */
 .container{
-  max-width: 1400px;
-  height: 100vh;
-  padding: 0 90px;
+  width: 80%;
   margin: auto;
 }
 p{
@@ -34,19 +33,25 @@ a.button{
   color: #fff;
   background-color: #FF5959;
 }
-/* about-me section  */
-.about-me{
+.main-content{
+  display: flex;
+  align-items: center;
+}
+section{
+  margin: 70px 0;
+}
+
+
+/* hero section  */
+.hero-section .row{
   display: flex;
   justify-content: space-between;
 }
-.half-width{
-  width: 40%;
-}
-.about-me img{
+.hero-section .row img{
   width: 100%;
-  border-radius: 50%;
 }
-.about-me h1{
+
+.hero-section h1{
   font-size: 55px;
   font-weight: 400;
   font-family: 'Yeseva One', cursive;
@@ -61,31 +66,27 @@ a.button{
   padding: 0 5px;
 }
 
-/* My mission section  */
-
-#mission{
-  margin: 100px 0;
+/* mission */
+.mission img{
+  width: 100px;
 }
-#mission h1{
+.mission h1{
   text-align: center;
   font-size: 48px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
-.my-mission{
+.mission .row{
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
-}
-#mission img{
-  width: 100px;
 }
 .common{
   padding: 15px 10px;
   border-radius: 10px;
   margin: 10px;
 }
-.missions{
+.my-mission{
   background-color: #4F9DA61A;
 }
 .vissions{
@@ -95,8 +96,8 @@ a.button{
   background-color: #FFF4D6;
 }
 
-/* discussion  */
-.common-style{
+/* Discussion */
+.common-style .row{
   display: flex;
 }
 .common-style img{
@@ -105,17 +106,10 @@ a.button{
 .content--right{
   padding-left: 80px;
 }
-.main-content{
-  display: flex;
-  align-items: center;
-}
 
 /* community */
-#community{
-  margin: 80px 0;
-}
 
-#community > .content--right{
+#community  .content--right{
   padding-right: 80px;
   padding-left: 0;
 }
@@ -139,9 +133,9 @@ footer p{
   color: #ffffff;
   font-size: 12px;
 }
-.portfolio-content{
+.footer-content{
   padding: 30px 0;
 }
-.portfolio-title{
+.footer-title{
   color: #FF5959;;
 }
