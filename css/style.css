@@ -12,11 +12,11 @@ body{
 
 /* short-code  */
 .container{
-  width: 80%;
+  width: 1200px;
   margin: auto;
 }
 p{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   color: #3E3E3E;
@@ -47,8 +47,11 @@ section{
   display: flex;
   justify-content: space-between;
 }
+.hero-section .content{
+  padding-right: 250px;
+}
 .hero-section .row img{
-  width: 100%;
+  width: 450px;
 }
 
 .hero-section h1{
