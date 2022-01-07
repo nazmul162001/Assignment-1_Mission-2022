@@ -168,6 +168,11 @@ section{
   width: 335px;
   height: 395px;
 }
+.portfolio .shadow{
+  padding: 20px;
+  box-shadow: 10px 10px 15px #e3ebf1, -10px -10px 15px #e3ebf1;
+  border-radius: 10px;
+}
 .portfolio a.button{
   display: inline-block;
   margin-right: 15px;
